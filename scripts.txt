@@ -1,0 +1,11 @@
+composer create-project --prefer-dist laravel/laravel restaurant
+php artisan serve
+php artisan migrate
+php artisan db:seed
+composer require laravel/ui
+php artisan ui vue --auth
+npm install && npm run dev
+php artisan cache:clear
+php artisan serve
+npm i @fortawesome/fontawesome-free
+npm run dev
